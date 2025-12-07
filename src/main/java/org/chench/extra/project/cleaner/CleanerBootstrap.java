@@ -120,7 +120,7 @@ public class CleanerBootstrap {
                 continue;
             }
             try {
-                FileUtils.deleteDirectory(target);
+                FileUtils.forceDelete(target);
                 System.out.println(String.format("clean target: %s", target.getAbsolutePath()));
             } catch (IOException e) {
                 throw new RuntimeException(e);

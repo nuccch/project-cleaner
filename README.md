@@ -12,3 +12,8 @@
 - tmp目录
 - .idea目录
 - .settings目录
+
+详见配置文件：src/main/resources/clean_target.properties  
+
+该工具在需要清理某个包含多个子模块的工程目录时非常有用。    
+
